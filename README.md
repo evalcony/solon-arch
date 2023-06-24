@@ -11,20 +11,23 @@
 - mybatis-plus
 - HikariCP
 - caffeine (高性能本地缓存)
+- [hutool, 文档在此](https://www.hutool.cn/docs/#/) 
+  - [API 在此](https://apidoc.gitee.com/dromara/hutool/)
+- [fastjson](https://github.com/alibaba/fastjson)
 
 ToDo
 
 - pagehelper
 - es
 - sms
-- 后台
+- 管理后台
 - docs
 - excel
-- http
 - rpc
 - websocket
 - mq
-- tools
 - auth
 - serialization
 - cloud
+- OAuth
+- gateway

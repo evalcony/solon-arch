@@ -20,7 +20,6 @@ public class CacheConfig {
 
     @Bean
     public Cache<String, Object> caffineCache() {
-
         return Caffeine.newBuilder()
                 .initialCapacity(initcapacity)
                 // 超出时淘汰
