@@ -1,3 +1,5 @@
+package com.evalcony;
+
 import org.junit.runner.RunWith;
 import org.noear.solon.test.SolonJUnit4ClassRunner;
 import org.noear.solon.test.SolonTest;

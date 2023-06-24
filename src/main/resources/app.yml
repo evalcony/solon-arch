@@ -45,3 +45,9 @@ redis.ds:
 redis.rd:
   server: localhost:6379
   db: 1
+
+# caffeine
+caffine:
+  init_capacity: 100
+  max_size: 1000
+  duration: 60

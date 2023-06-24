@@ -9,7 +9,7 @@ import org.noear.solon.annotation.Inject;
 import java.util.concurrent.TimeUnit;
 
 @Configuration
-public class CaffeineConfig {
+public class CacheConfig {
 
     @Inject("${caffine.init_capacity}")
     Integer initcapacity;
@@ -19,9 +19,9 @@ public class CaffeineConfig {
     Integer duration;
 
     @Bean
-    public Cache<String, Object> buildCache() {
+    public Cache<String, Object> caffineCache() {
 
-        Cache<String, Object> cache = Caffeine.newBuilder()
+        return Caffeine.newBuilder()
                 .initialCapacity(initcapacity)
                 // 超出时淘汰
                 .maximumSize(maxSize)
@@ -30,6 +30,5 @@ public class CaffeineConfig {
                 //设置读写缓存后n秒钟过期,实际很少用到,类似于expireAfterWrite
                 //.expireAfterAccess(17, TimeUnit.SECONDS)
                 .build();
-        return cache;
     }
 }
