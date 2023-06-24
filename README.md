@@ -18,7 +18,9 @@
 ToDo
 
 - pagehelper
-- es
+- elasticsearch
+- [easy-es](https://www.easy-es.cn/pages/7ead0d/#%E7%AE%80%E4%BB%8B)
+- mongodb
 - sms
 - 管理后台
 - docs
@@ -26,8 +28,13 @@ ToDo
 - rpc
 - websocket
 - mq
+- 总线bus
 - auth
 - serialization
 - cloud
 - OAuth
 - gateway
+- Exceptions
+- 文件上传、下载
+- oss
+- avatar
