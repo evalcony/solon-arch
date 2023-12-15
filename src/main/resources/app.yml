@@ -1,6 +1,10 @@
 solon.app:
   name: solon-arch
 
+solon:
+  default:
+    launcher: com.evalcony.App
+
 server.port: 8081
 
 database.db:
