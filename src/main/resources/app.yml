@@ -25,7 +25,7 @@ mybatis.db:
 
 ## xxl-job
 solon.cloud.xxljob:
-  server: "http://localhost:8080/xxl-job-admin"
+  server: "http://localhost:9998/xxl-job-admin"
 
 solon.logging.logger:
   "io.netty.*":
